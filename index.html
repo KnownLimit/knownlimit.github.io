@@ -1,7 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNOWN LIMIT</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+        }
+        .container img {
+            max-width: 100%;
+            max-height: 500px; /* Set the maximum height */
+            width: auto;
+            height: auto;
+        }
+        .email-link {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        .email-link a {
+            color: #000;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="container">
+        <img src="media/KnownLimit_Logo.png" alt="Centered Image">
+    </div>
+    <div class="email-link">
+        <a href="mailto:admin@knownlimit.com">Inquiries: admin@knownlimit.com</a>
+    </div>
 </body>
 </html>
