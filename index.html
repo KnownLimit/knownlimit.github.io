@@ -24,20 +24,27 @@
         }
         .container img {
             max-width: 100%;
-            max-height: 500px; /* Set the maximum height */
+            max-height: 500px;
             width: auto;
             height: auto;
         }
-        .email-link {
+        .email-link, .copyright {
             position: absolute;
-            bottom: 20px;
             text-align: center;
             width: 100%;
+        }
+        .email-link {
+            bottom: 40px;
         }
         .email-link a {
             color: #000;
             text-decoration: none;
             font-size: 18px;
+        }
+        .copyright {
+            bottom: 10px;
+            font-size: 14px;
+            color: #888;
         }
     </style>
 </head>
@@ -46,7 +53,10 @@
         <img src="media/KnownLimit_Logo.png" alt="Centered Image">
     </div>
     <div class="email-link">
-        <a href="mailto:contact@knownlimit.com">Inquiries: contact@knownlimit.com</a>
+        <a href="mailto:admin@knownlimit.com">Inquiries: admin@knownlimit.com</a>
+    </div>
+    <div class="copyright">
+        &copy; <script>document.write(new Date().getFullYear());</script> Known Limit LLC. All rights reserved.
     </div>
 </body>
 </html>
